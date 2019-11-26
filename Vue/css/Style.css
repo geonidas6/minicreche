@@ -1,0 +1,116 @@
+@charset="utf-8";
+/*--------------link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif" rel="stylesheet"------------------*/ 
+body, html {
+    padding: 0;
+    margin:0;
+}
+
+body { 
+font-family: "impact normal";
+    font-size: 20px;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+.container-fluid{
+    padding: 0;
+}
+
+.btn-custom:hover{
+    background-color: #333;
+}
+
+.separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: yellow;
+}
+
+/*header*/
+ 
+ 
+.header{
+    background-color: #333;
+    height: 70px;
+    line-height: 70px;
+    
+}
+.logo {
+    color: darkolivegreen;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: left;
+} 
+
+.menu{
+    float: right;
+}
+.menu a{
+    color: darkgray;
+    margin-right:20px;
+}
+.menu a:hover {
+    color: darkolivegreen;
+     
+}
+/*Banièrre*/
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+.ban{
+    width: 100%;
+    max-width: 100%;
+}
+.ban img {
+    
+    width: 100%;
+    max-width: 100%; 
+    position: relative; 
+}
+.inner-banner{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+.inner-banner h1 {
+    font-size: 70px;
+    color: darkgray;
+    text-shadow: 1px 1px 20px #000000;
+}
+.inner-banner  .btn-custom {
+    background-color: gray;
+    color: #ffffff;
+}
+.inner-banner  .btn-custom:hover{
+    background-color: darkolivegreen;
+}
+/*A Propos*/
+#about {
+    text-align: center;
+    padding-top: 10%;
+}
+.about article {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.about article h2 {
+    text-align: center;
+}
+/*Gom Agro*/
+.Portfolio {
+    background-color: goldenrod;
+    height: 700px;
+}
+#portfolio {
+    text-align: center;
+}
+.portfolio .item-folio{
+    height: 280px; 
+}
+/*footer*/

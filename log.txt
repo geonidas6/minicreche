@@ -1,0 +1,16 @@
+06/15/2019 12:10:34 : DB _generesql - ajout -INSERT INTO emploier (fistname, lastnamme, email, pwd) VALUES ("AKOTSE", "PATRICE", "admin@admin.com", "geonidas") :Unknown column 'fistname' in 'field list'
+06/15/2019 12:12:00 : DB _generesql - ajout -INSERT INTO emploier (firstname, lastnamme, email, pwd) VALUES ("AKOTSE", "PATRICE", "admin@admin.com", "geonidas") :Unknown column 'lastnamme' in 'field list'
+06/15/2019 12:14:36 : DB _generesql - ajout -INSERT INTO emploier (firstname, lastname, email, pwd) VALUES ("AKOTSE", "PATRICE", "admin@admin.com", "f64e454084df8653a577f1ed995b6666") :Duplicate entry 'admin@admin.com' for key 'email'
+06/15/2019 12:21:40 : DB _generesql - ajout -INSERT INTO emploier (firstname, lastname, email, pwd) VALUES ("AKOTSE", "PATRICE", "admin@admin.com", "f64e454084df8653a577f1ed995b6666") :Duplicate entry 'admin@admin.com' for key 'email'
+06/15/2019 12:30:19 : DB _generesql - ajout -INSERT INTO emploier (firstname, lastname, email, pwd) VALUES ("AKOTSE", "PATRICE", "admin@admin.com", "f64e454084df8653a577f1ed995b6666") :Duplicate entry 'admin@admin.com' for key 'email'
+06/16/2019 10:42:15 : DB _generesql - ajout -INSERT INTO parent (firsname, lastname, tel_parent, email) VALUES ("", "PATRICE", "8707089890", "sfsdfs@gmail.com") :Unknown column 'firsname' in 'field list'
+06/16/2019 11:01:15 : DB _generesql - ajout -INSERT INTO parent (firsname, lastname, tel_parent, email) VALUES ("", "PATRICE", "8707089890", "sfsdfs@gmail.com") :Unknown column 'firsname' in 'field list'
+06/16/2019 12:26:08 : DB _generesql - delete - DELETE FROM emploier WHERE id =   :You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+06/16/2019 12:27:07 : DB _generesql - delete - DELETE FROM emploier WHERE id =   :You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+06/16/2019 12:31:42 : DB _generesql - delete - DELETE FROM emploier WHERE id = 2  :Unknown column 'id' in 'where clause'
+06/16/2019 17:41:45 : DB _generesql - ajout -INSERT INTO parent_enfant (id_parent, id_enfant) VALUES ("1", "2") :Duplicate entry '1-2' for key 'id_parent'
+06/16/2019 21:16:15 : DB _generesql - update -  UPDATE parent SET  firstname= "AKOTSE" ,  lastname= "Eduarddd" ,  tel_parent= "8707089890" ,  email= "sfsdfs@gmail.com"   WHERE id = '1'  :Unknown column 'id' in 'where clause'
+06/17/2019 12:43:29 : DB _generesql - update -  UPDATE historique SET  regler= "1"   WHERE numero_paiement = b544f388e8890fbb6890bd540c98bd73  :Unknown column 'b544f388e8890fbb6890bd540c98bd73' in 'where clause'
+06/17/2019 12:45:16 : DB _generesql - update -  UPDATE historique SET  regler= "1"   WHERE numero_paiement = b544f388e8890fbb6890bd540c98bd73  :Unknown column 'b544f388e8890fbb6890bd540c98bd73' in 'where clause'
+06/17/2019 13:07:21 : DB _generesql - update -  UPDATE historique SET  regler= "1"   WHERE numero_paiement = ad86b8291a213f0e4051ff1a9008d87c  :Unknown column 'ad86b8291a213f0e4051ff1a9008d87c' in 'where clause'
+06/17/2019 13:07:36 : DB _generesql - update -  UPDATE historique SET  regler= "1"   WHERE numero_paiement = ad86b8291a213f0e4051ff1a9008d87c  :Unknown column 'ad86b8291a213f0e4051ff1a9008d87c' in 'where clause'
